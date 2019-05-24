@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+//import enDis from '../app/app.component.ts';
 @Component({
   selector: 'app-server',
   templateUrl: './server.component.html',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ServerComponent implements OnInit {
 enDis = true;
 clickmeHappend=0;
+myText='click!';
+myClass="btn btn-primary"
   constructor() { }
 
   ngOnInit() {
@@ -18,6 +20,7 @@ clickmeHappend=0;
   myfunction=()=>{
 
     this.clickmeHappend++;
-
+    this.myText="you have ckicked"
+    this.myClass="btn btn-danger"
   }
 }
