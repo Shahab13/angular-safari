@@ -9,7 +9,11 @@ export class ServerComponent implements OnInit {
 enDis = true;
 clickmeHappend=0;
 myText='click!';
-myClass="btn btn-primary"
+myClass="btn btn-primary";
+myName = '';
+counter = 5
+
+ 
   constructor() { }
 
   ngOnInit() {
