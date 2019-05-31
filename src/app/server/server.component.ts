@@ -25,6 +25,6 @@ counter = 5
 
     this.clickmeHappend++;
     this.myText="you have ckicked"
-    this.myClass="btn btn-danger"
+    this.myClass="btn myClass"
   }
 }
