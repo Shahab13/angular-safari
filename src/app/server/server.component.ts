@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServerComponent implements OnInit {
 enDis = true;
 clickmeHappend=0;
-myText='click!';
+myText='Click!';
 myClass="btn btn-primary";
 myName = '';
 counter = 5
@@ -24,7 +24,7 @@ counter = 5
   myfunction=()=>{
 
     this.clickmeHappend++;
-    this.myText="you have ckicked"
-    this.myClass="btn myClass"
+    this.myText=`You have ckicked ${this.clickmeHappend} tmes`;
+    this.myClass="btn myClass";
   }
 }
